@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access/>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>revisione_settimanale_needit</internal_name>
+        <label_cache>[{"name":"ece4553e-d5e8-4827-8e21-f6858b2f8adb.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ece4553e-d5e8-4827-8e21-f6858b2f8adb.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af8dfa04-56ee-41e1-a790-34471dd3bc15.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af8dfa04-56ee-41e1-a790-34471dd3bc15.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}},{"name":"ba8c7370-4d22-49ed-8e54-a20246169b5d.count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"edb3c082-a356-4943-a263-55232fc02390"}},{"name":"ba8c7370-4d22-49ed-8e54-a20246169b5d.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"828e2127-df28-4eda-af48-ee4e876cca1e"}},{"name":"ba8c7370-4d22-49ed-8e54-a20246169b5d.message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"eae4ca7a-5ba6-465c-b7bd-6ba1cf184947"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Revisione settimanale needit</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 14:39:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aad3eeec2f026010cbf6b2e72799b6fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Revisione settimanale needit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_aad3eeec2f026010cbf6b2e72799b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=aad3eeec2f026010cbf6b2e72799b6fc"/>
+    <sys_variable_value action="DELETE" query="document_key=aad3eeec2f026010cbf6b2e72799b6fc"/>
+    <sys_hub_flow_component action="DELETE" query="flow=aad3eeec2f026010cbf6b2e72799b6fc^sys_idNOT IN6e91b6682f426010cbf6b2e72799b6d8"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Update Multiple Records">9daf2a72c75100105312134c95c26073</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Revisione settimanale needit">aad3eeec2f026010cbf6b2e72799b6fc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>6e91b6682f426010cbf6b2e72799b6d8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <ui_id>ba8c7370-4d22-49ed-8e54-a20246169b5d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=6e91b6682f426010cbf6b2e72799b6d8"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>2e91b6682f426010cbf6b2e72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <value>u_request_type=hr</value>
+        <variable display_value="">d9af2a72c75100105312134c95c2607a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>a291b6682f426010cbf6b2e72799b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">99af2a72c75100105312134c95c26082</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>ee91b6682f426010cbf6b2e72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">5daf2a72c75100105312134c95c26074</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="DELETE" query="flow=aad3eeec2f026010cbf6b2e72799b6fc^sys_idNOT IN9291b6682f426010cbf6b2e72799b6d1"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Revisione settimanale needit">aad3eeec2f026010cbf6b2e72799b6fc</flow>
+        <name>Weekly</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>9291b6682f426010cbf6b2e72799b6d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <trigger_definition display_value="Weekly">cf352104c32222002841b63b12d3ae1f</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>weekly</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=9291b6682f426010cbf6b2e72799b6d1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9291b6682f426010cbf6b2e72799b6d1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>2691b6682f426010cbf6b2e72799b6d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <value>1970-01-01 23:37:00</value>
+        <variable display_value="">a745a104c32222002841b63b12d3ae18</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9291b6682f426010cbf6b2e72799b6d1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>2a91b6682f426010cbf6b2e72799b6d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <value>7</value>
+        <variable display_value="">c685a104c32222002841b63b12d3aed3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=aad3eeec2f026010cbf6b2e72799b6fc^sys_idNOT IN6ad3eeec2f026010cbf6b2e72799b6fd"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>aad3eeec2f026010cbf6b2e72799b6fc</id>
+        <name>Revisione settimanale needit</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 14:39:11</sys_created_on>
+        <sys_id>6ad3eeec2f026010cbf6b2e72799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 14:39:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="DELETE" query="flow=aad3eeec2f026010cbf6b2e72799b6fc^sys_idNOT IN6e91b6682f426010cbf6b2e72799b6d8"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Update Multiple Records">9daf2a72c75100105312134c95c26073</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Revisione settimanale needit">aad3eeec2f026010cbf6b2e72799b6fc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>6e91b6682f426010cbf6b2e72799b6d8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <ui_id>ba8c7370-4d22-49ed-8e54-a20246169b5d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=6e91b6682f426010cbf6b2e72799b6d8"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>2e91b6682f426010cbf6b2e72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <value>u_request_type=hr</value>
+        <variable display_value="">d9af2a72c75100105312134c95c2607a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>a291b6682f426010cbf6b2e72799b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">99af2a72c75100105312134c95c26082</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:15</sys_created_on>
+        <sys_id>ee91b6682f426010cbf6b2e72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:15</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">5daf2a72c75100105312134c95c26074</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9a58cce7db3353447d8cf22ebf9619c2</instance_id>
+        <instance_name>dev70284</instance_name>
+        <name>sys_hub_flow_aad3eeec2f026010cbf6b2e72799b6fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access/><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>revisione_settimanale_needit</internal_name><label_cache>[{"name":"ece4553e-d5e8-4827-8e21-f6858b2f8adb.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ece4553e-d5e8-4827-8e21-f6858b2f8adb.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af8dfa04-56ee-41e1-a790-34471dd3bc15.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af8dfa04-56ee-41e1-a790-34471dd3bc15.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}},{"name":"ba8c7370-4d22-49ed-8e54-a20246169b5d.count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"edb3c082-a356-4943-a263-55232fc02390"}},{"name":"ba8c7370-4d22-49ed-8e54-a20246169b5d.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"828e2127-df28-4eda-af48-ee4e876cca1e"}},{"name":"ba8c7370-4d22-49ed-8e54-a20246169b5d.message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"eae4ca7a-5ba6-465c-b7bd-6ba1cf184947"}}]</label_cache><latest_snapshot/><master_snapshot/><name>Revisione settimanale needit</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 14:39:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aad3eeec2f026010cbf6b2e72799b6fc</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Revisione settimanale needit</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_hub_flow_aad3eeec2f026010cbf6b2e72799b6fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=aad3eeec2f026010cbf6b2e72799b6fc"/><sys_variable_value action="delete_multiple" query="document_key=aad3eeec2f026010cbf6b2e72799b6fc"/><sys_hub_flow_component action="delete_multiple" query="flow=aad3eeec2f026010cbf6b2e72799b6fc^sys_idNOT IN6e91b6682f426010cbf6b2e72799b6d8"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Update Multiple Records">9daf2a72c75100105312134c95c26073</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Revisione settimanale needit">aad3eeec2f026010cbf6b2e72799b6fc</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>6e91b6682f426010cbf6b2e72799b6d8</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><ui_id>ba8c7370-4d22-49ed-8e54-a20246169b5d</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=6e91b6682f426010cbf6b2e72799b6d8"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>2e91b6682f426010cbf6b2e72799b6da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><value>u_request_type=hr</value><variable display_value="">d9af2a72c75100105312134c95c2607a</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key><order>3</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>a291b6682f426010cbf6b2e72799b6db</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><value>state=3</value><variable display_value="">99af2a72c75100105312134c95c26082</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>ee91b6682f426010cbf6b2e72799b6da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><value>x_58872_needit_needit</value><variable display_value="">5daf2a72c75100105312134c95c26074</variable></sys_variable_value><sys_hub_trigger_instance action="delete_multiple" query="flow=aad3eeec2f026010cbf6b2e72799b6fc^sys_idNOT IN9291b6682f426010cbf6b2e72799b6d1"/><sys_hub_trigger_instance action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="Revisione settimanale needit">aad3eeec2f026010cbf6b2e72799b6fc</flow><name>Weekly</name><remote_sys_id/><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>9291b6682f426010cbf6b2e72799b6d1</sys_id><sys_mod_count>1</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><trigger_definition display_value="Weekly">cf352104c32222002841b63b12d3ae1f</trigger_definition><trigger_inputs/><trigger_outputs/><trigger_type>weekly</trigger_type></sys_hub_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=9291b6682f426010cbf6b2e72799b6d1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_trigger_instance</document><document_key>9291b6682f426010cbf6b2e72799b6d1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>2691b6682f426010cbf6b2e72799b6d2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><value>1970-01-01 23:37:00</value><variable display_value="">a745a104c32222002841b63b12d3ae18</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_trigger_instance</document><document_key>9291b6682f426010cbf6b2e72799b6d1</document_key><order>10</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>2a91b6682f426010cbf6b2e72799b6d2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><value>7</value><variable display_value="">c685a104c32222002841b63b12d3aed3</variable></sys_variable_value><sys_flow_cat_variable_model action="delete_multiple" query="id=aad3eeec2f026010cbf6b2e72799b6fc^sys_idNOT IN6ad3eeec2f026010cbf6b2e72799b6fd"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>aad3eeec2f026010cbf6b2e72799b6fc</id><name>Revisione settimanale needit</name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 14:39:11</sys_created_on><sys_id>6ad3eeec2f026010cbf6b2e72799b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 14:39:11</sys_updated_on></sys_flow_cat_variable_model><sys_hub_action_instance action="delete_multiple" query="flow=aad3eeec2f026010cbf6b2e72799b6fc^sys_idNOT IN6e91b6682f426010cbf6b2e72799b6d8"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Update Multiple Records">9daf2a72c75100105312134c95c26073</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Revisione settimanale needit">aad3eeec2f026010cbf6b2e72799b6fc</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>6e91b6682f426010cbf6b2e72799b6d8</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><ui_id>ba8c7370-4d22-49ed-8e54-a20246169b5d</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=6e91b6682f426010cbf6b2e72799b6d8"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>2e91b6682f426010cbf6b2e72799b6da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><value>u_request_type=hr</value><variable display_value="">d9af2a72c75100105312134c95c2607a</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key><order>3</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>a291b6682f426010cbf6b2e72799b6db</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><value>state=3</value><variable display_value="">99af2a72c75100105312134c95c26082</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>6e91b6682f426010cbf6b2e72799b6d8</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 15:39:15</sys_created_on><sys_id>ee91b6682f426010cbf6b2e72799b6da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 15:39:15</sys_updated_on><value>x_58872_needit_needit</value><variable display_value="">5daf2a72c75100105312134c95c26074</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>652591883</payload_hash>
+        <record_name>Revisione settimanale needit</record_name>
+        <reverted_from/>
+        <source>9803c0312f352010cbf6b2e72799b6d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:39:16</sys_created_on>
+        <sys_id>e691b6682f426010cbf6b2e72799b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17749a611c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:39:16</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>ee91b6689e4260104115415b8e9e26ee</update_guid>
+        <update_guid_history>ee91b6689e4260104115415b8e9e26ee:652591883,2ad32220ae426010aaa543896837b100:-362126232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 15:47:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>5c70e9e122e740578797cdc2c61edd91</sys_id>
+        <sys_metadata>aad3eeec2f026010cbf6b2e72799b6fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Revisione settimanale needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_aad3eeec2f026010cbf6b2e72799b6fc</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_aad3eeec2f026010cbf6b2e72799b6fc">e691b6682f426010cbf6b2e72799b6ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 15:47:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
